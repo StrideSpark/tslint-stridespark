@@ -1,0 +1,8 @@
+{
+  "name": "tslint-stridespark",
+  "version": "1.0.0",
+  "main": "tslint.js",
+  "repository": "stridespark/tslint-stridespark",
+  "author": "scott@stridespark.com",
+  "license": "MIT"
+}
