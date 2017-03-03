@@ -1,4 +1,4 @@
-export const rules = {
+module.exports = {
     "rules": {
         "no-var-keyword": true,
         "prefer-const": true,
