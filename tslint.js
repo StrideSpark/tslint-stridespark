@@ -6,7 +6,6 @@ module.exports = {
         "no-shadowed-variable": true,
         "no-switch-case-fall-through": true,
         "no-string-throw": true,
-        "no-for-in-array": true,
         "no-angle-bracket-type-assertion": true,
         "no-trailing-whitespace": true,
         "semicolon": [
@@ -17,12 +16,6 @@ module.exports = {
         "array-type": [
             true,
             "array"
-        ],
-        "strict-boolean-expressions": [
-            true,
-            "allow-string",
-            "allow-undefined-union",
-            "allow-mix"
         ],
         "triple-equals": [
             true,
