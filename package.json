@@ -4,5 +4,11 @@
   "main": "tslint.js",
   "repository": "stridespark/tslint-stridespark",
   "author": "scott@stridespark.com",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "publish": "^0.6.0"
+  },
+  "scripts": {
+    "test": "echo 'no tests'"
+  }
 }
