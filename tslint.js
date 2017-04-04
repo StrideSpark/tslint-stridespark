@@ -8,6 +8,11 @@ module.exports = {
         "no-string-throw": true,
         "no-angle-bracket-type-assertion": true,
         "no-trailing-whitespace": true,
+        "no-unused-new": true,
+        "no-unused-expression": true,
+        "no-unused-variable": [
+            true,
+        ],
         "semicolon": [
             true,
             "always",
