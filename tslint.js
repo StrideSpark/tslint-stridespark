@@ -8,18 +8,11 @@ module.exports = {
         "no-string-throw": true,
         "no-angle-bracket-type-assertion": true,
         "no-trailing-whitespace": { severity: 'warning' },
-        "no-unused-expression": true,
-        "await-promise": true,
-        "no-floating-promises": true,
-        "no-for-in-array": true,
-        "no-unbound-method": true,
+        "await-promise": { severity: 'warning' },
+        "no-floating-promises": { severity: 'warning' },
+        "no-for-in-array": { severity: 'warning' },
+        "no-unbound-method": { severity: 'warning' },
         "no-use-before-declare": true,
-        "strict-boolean-expressions": {
-            options: [
-                "allow-undefined-union",
-                "allow-string"
-            ]
-        },
         "semicolon": {
             severity: 'warning',
             options: [
