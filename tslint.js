@@ -8,11 +8,6 @@ module.exports = {
         "no-string-throw": true,
         "no-angle-bracket-type-assertion": true,
         "no-trailing-whitespace": { severity: 'warning' },
-        "await-promise": { severity: 'warning' },
-        "no-floating-promises": { severity: 'warning' },
-        "no-for-in-array": { severity: 'warning' },
-        "no-unbound-method": { severity: 'warning' },
-        "no-use-before-declare": true,
         "semicolon": {
             severity: 'warning',
             options: [
