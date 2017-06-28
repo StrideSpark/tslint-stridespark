@@ -8,6 +8,7 @@ module.exports = {
         "no-string-throw": true,
         "no-angle-bracket-type-assertion": true,
         "no-trailing-whitespace": { severity: 'warning' },
+        "no-default-export": { severity: 'warning' },
         "semicolon": {
             severity: 'warning',
             options: [
