@@ -1,6 +1,6 @@
 {
   "name": "tslint-stridespark",
-  "version": "2.0.3",
+  "version": "2.0.4",
   "main": "tslint.js",
   "repository": "stridespark/tslint-stridespark",
   "author": "scott@stridespark.com",
