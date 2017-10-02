@@ -8,9 +8,10 @@
   "devDependencies": {
     "publish": "^0.6.0",
     "tslint": "^5.1.0",
-    "typescript": "2.2.*"
+    "typescript": ">2.2"
   },
   "scripts": {
-    "test": "echo 'no tests'"
+    "test": "echo 'no tests'",
+    "2npm": "tsc --declaration && publish"
   }
 }
