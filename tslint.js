@@ -1,4 +1,5 @@
 module.exports = {
+  rulesDirectory: ["./src"],
   rules: {
     "no-var-keyword": true,
     "prefer-const": { severity: "warning" },
@@ -8,6 +9,7 @@ module.exports = {
     "no-string-throw": true,
     "no-angle-bracket-type-assertion": true,
     "no-default-export": { severity: "warning" },
+    "no-falsey-zero": true,
     semicolon: {
       severity: "warning",
       options: ["always", "ignore-interfaces"]
