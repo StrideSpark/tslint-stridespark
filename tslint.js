@@ -9,7 +9,7 @@ module.exports = {
     "no-string-throw": true,
     "no-angle-bracket-type-assertion": true,
     "no-default-export": { severity: "warning" },
-    "no-falsey-zero": true,
+    "no-falsey-zero": { severity: "warning" },
     semicolon: {
       severity: "warning",
       options: ["always", "ignore-interfaces"]
