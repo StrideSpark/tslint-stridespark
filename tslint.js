@@ -18,6 +18,7 @@ module.exports = {
     },
     "triple-equals": [true, "allow-undefined-check"],
     ban: [true, ["it", "only"], ["describe", "only"]],
-    "import-blacklist": [true, "mobx/lib/mobx"]
+    "import-blacklist": [true, "mobx/lib/mobx"],
+    deprecation: true
   }
 };
